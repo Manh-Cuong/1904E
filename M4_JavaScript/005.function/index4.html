@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<pre>
+    phạm vi của biến:biến toàn cục và biến cục bộ
+    biến toàn cục có ảnh hưởng trong toàn bộ chương trình
+    biến cục bộ chỉ có ảnh hưởng trong function
+    các tham số của hàm là những biến cục bộ
+    những biến được khai báo trong hàm sẽ là biến cục bộ
+
+</pre>
+<script type="text/javascript">
+
+    //tham số a,b là biến cục bộ trong hàm
+    // biến c là biến cục bộ
+    //biến x,y,ketqua là những biến toàn cục
+    function tinhtong(a,b) {
+        var c=a+b;
+        return c;
+    }
+    //gọi hàm
+    var x=10;
+    var y=11;
+    var ketqua=tinhtong(x,y);
+    console.log(ketqua);
+
+    //truy cập vào 1 biến bên ngoài hàm
+
+    // console.log(c);
+    //    sẽ báo lỗi
+</script>
+</body>
+</html>
