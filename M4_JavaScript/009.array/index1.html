@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<pre>
+    mảng trong js
+    mảng là 1 kiểu dlieu để lưu giữ nhiều giá trị trong 1 biến duy nhất
+</pre>
+<script type="text/javascript">
+    //khai báo mảng trong js
+    var std=["Nguyen van A","Nguyen van B","Nguyen van C","Nguyen van D","Nguyen van X"];
+    console.log(std);
+
+
+    //cách 2 để khai báo mảng
+    var std2= new Array("Nguyen van B","Nguyen van C","Nguyen van D");
+    console.log(std2);
+    console.log("độ dài của mảng");
+    console.log(std.length);
+    console.log(std2.length);
+
+    console.log("lặp mảng 1");
+    for (i=0;i<std.length;i++){
+        //in ra các phần tử của mảng
+        console.log(std[i]);
+    }
+
+    console.log("lặp mảng 2");
+    for (j=0;j<std2.length;j++){
+        //in ra các phần tử của mảng
+        console.log(std[j]);
+    }
+
+
+    //in các phần tử của mảng bằng cách trực tiếp
+    console.log("in phần tử của mảng bằng cách in trực tiếp");
+    console.log(std[0]);
+    console.log(std[1]);
+    console.log(std[2]);
+    console.log(std[3]);
+
+    //dùng vòng lặp while in ra các phần tử của mảng
+    console.log("vòng lặp while in phần tử của mảng")
+    var a=0;
+    while (a<std.length){
+        console.log(std[a]);
+        a++;
+    }
+</script>
+</body>
+</html>
