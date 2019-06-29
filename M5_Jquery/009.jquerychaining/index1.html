@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<pre>
+    jquerychaining
+</pre>
+<div id="title" style="background: green">Title</div>
+<div id="title" style="background: violet">Lê Mạnh Cường</div>
+<button id="btn1">Click me</button>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#btn1").on("click", function () {
+            $("#desc").css("background", "green").slideUp().slideDown();
+        });
+    });
+</script>
+</body>
+</html>

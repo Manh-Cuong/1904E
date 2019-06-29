@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<pre>
+    sự kiện click
+</pre>
+<div class="Cuong">
+    Thẻ div
+</div>
+<button id="btn">Click me</button>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#btn").dblclick(function () {
+            $(".Cuong").css("background","red");
+        });
+    });
+</script>
+</body>
+</html>
