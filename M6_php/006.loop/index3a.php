@@ -20,26 +20,15 @@
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <td>1</td>
-                <td>Bản ghi số 1</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Bản ghi số 2</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Bản ghi số 3</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Bản ghi số 4</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Bản ghi số 5</td>
-            </tr>
+            <?php
+                for ($i=1;$i<=20;$i++){
+                    echo "<tr>";
+                    echo "<td>$i</td>";
+                    echo "<td>Bản ghi số $i</td>";
+                    echo "</tr>";
+                }
+            ?>
+
             </tbody>
         </table>
     </div>
