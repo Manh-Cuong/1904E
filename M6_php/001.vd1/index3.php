@@ -26,6 +26,7 @@ echo "<p style='color: yellow'>Chào php</p>";
 
 </pre>
 
-<p style='color: red'><?php "Chào php"; ?></p>
+<p style='color: red'> <?php echo "Chào php"; ?> </p>
+
 </body>
 </html>
