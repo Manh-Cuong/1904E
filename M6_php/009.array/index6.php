@@ -17,7 +17,7 @@ echo "<br>".$array1[2];
 //gán value cho 1 phần tử trong mảng thông qua key
 
 $array1[0]="Thủ đô HN";
-$array1[3]="Thành phố HCM";
+$array1[2]="Thành phố HCM";
 echo "<pre>";
 print_r($array1);
 echo "</pre>";
