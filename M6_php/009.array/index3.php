@@ -11,9 +11,9 @@
 </pre>
 <?php
 $array3=array();
-$array3["VietNam"]=array("name"=>"Việt Nam", "city"=>"Hà Nội","HCM");
-$array3["ChiNa"]=array("name"=>"Trung Quốc", "city"=>"Bắc Kinh","Thượng Hải");
-$array3["Japan"]=array("name"=>"Nhật Bản", "city"=>"ToKyo","Kyoto");
+$array3["VietNam"]=array("name"=>"Việt Nam", "city"=>array("Hà Nội","HCM"));
+$array3["ChiNa"]=array("name"=>"Trung Quốc", "city"=>array("Bắc Kinh","Thượng Hải"));
+$array3["Japan"]=array("name"=>"Nhật Bản", "city"=>array("ToKyo","Kyoto"));
 echo "<pre>";
 print_r($array3);
 echo "</pre>";
