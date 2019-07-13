@@ -7,7 +7,7 @@
 <body>
 <pre>
     các hàm cơ bản trong mảng
-    hàm array_values trả về giá trị của mảng
+    hàm array_keys lấy các key của mảng
 </pre>
 <?php
 $array2=array();
@@ -18,7 +18,7 @@ echo "<pre>";
 print_r($array2);
 echo "</pre>";
 
-$newArray=array_values($array2);
+$newArray=array_keys($array2);
 echo "<pre>";
 print_r($newArray);
 echo "</pre>";
