@@ -9,22 +9,13 @@
     loop mảng đa chiều
      yêu cầu in được ra tên của các  quốc gia và thành phố
     <ul>
-    <li>Trung quốc</li>
-        <ul>
-            <li>Bắc kinh</li>
-            <li>Thâm quyết</li>
-            <li>Thành đô</li>
-        </ul>
+        <li>Trung quốc</li>
+            <ul>
+                <li>Bắc kinh</li>
+                <li>Thành đô</li>
+            </ul>
+    </ul>
 
-</ul>
-<ul>
-    <li>Hàn quốc</li>
-    <li>Seun</li>
-</ul>
-<ul>
-    <li>nhật bản</li>
-    <li>tokyo</li>
-</ul>
 </pre>
 
 <?php
@@ -51,6 +42,7 @@ foreach ($array3 as $keyCountry => $country){
         }
     }
     foreach ($country as $keyCities => $cities){
+        echo "<ul>";
         if ($keyCities=="city") {
 //            echo "<br> " . $keyCities;
             foreach ($cities as $keyCity => $city){
@@ -60,6 +52,7 @@ foreach ($array3 as $keyCountry => $country){
                 echo "</li>";
             }
         }
+        echo "</ul>";
         echo "</ul>";
     }
 

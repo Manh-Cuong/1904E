@@ -7,7 +7,7 @@
 <body>
 <pre>
     các hàm cơ bản trong mảng
-    hàm array_values trả về giá trị của mảng
+    hàm array_values trả về giá trị của mảng và thay đổi giá trị key nếu mảng cũ có đặt tên cho key
 </pre>
 <?php
 $array2=array();
