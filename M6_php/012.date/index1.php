@@ -8,8 +8,8 @@
 <pre>
     timezone là múi giờ
     giờ việt nam là múi giờ : "Asia/Ho_Chi_Minh"
-    link các múi giờ của châu á:
-    link các múi giờ của thế giới:
+    link các múi giờ của châu á:http:/www.php.net/manual/en/timezone.asia.php
+    link các múi giờ của thế giới:http:/www.php.net/manual/en/timezone.php
     nếu muốn lấy giờ hiện tại chính xác thì cần đặt đúng giờ của zone đó
     date_default_timezone_set('Asia/Ho_Chi_Minh');
     nếu muốn chuyển múi giờ thì cần thay đổi tham số trong hàm date_default_timezone_set('Asia/Ho_Chi_Minh');
