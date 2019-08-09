@@ -69,12 +69,14 @@ if (isset($_POST) && !empty($_POST) && isset($_POST["employee_id"])) {
 
 
         if ($result == true) {
+            //nếu result = true thì thông báo thành công
             echo "<div class='alert alert-success'>Sửa nhân viên thành công ! <a href='index.php'>Trang chủ</a></div>";
         } else {
+            //nếu result bằng false thì thông báo thất bại
             echo "<div class='alert alert-danger'>Sửa nhân viên thất bại !</div>";
         }
     }else{
-
+        //lệnh implode dùng để chuyển mảng thành chuỗi
         $errors_string = implode("<br>", $errors);
         echo "<div class='alert alert-danger'>$errors_string</div>";
     }
