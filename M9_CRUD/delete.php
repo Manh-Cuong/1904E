@@ -37,16 +37,11 @@ if (isset($_POST) && !empty($_POST) && isset($_POST["employee_id"])) {
     //!isset($_POST["name"]) => không tồn tại
     // empty($_POST["name"]) => rỗng
 
-    if (!isset($_POST["name"]) || empty($_POST["name"])) {
-        $errors[] = "Tên nhân viên không hợp lệ";
-    }
-
-
     //$errors rỗng tức là không có lỗi
 
     if (empty($errors)) {
         $id = (int) $_POST["employee_id"];
-        $name = $_POST['name'];
+
 
 
 
