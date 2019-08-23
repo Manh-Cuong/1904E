@@ -25,13 +25,3 @@ class Student{
 
 $Cuong=new Student();
 
-//echo "<pre>";
-//print_r($tuan);
-//echo "</pre>";
-//
-//$tuan->printInfo();
-////gọi đến các thuộc tính của class từ bên ngoài class
-//echo "<br>---------".$tuan->name;
-//echo "<br>---------".$tuan->age;
-//echo "<br>---------".$tuan->location;
-//echo "<br>---------".$tuan->point;

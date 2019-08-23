@@ -13,6 +13,8 @@ class Student{
         $this->age=$age_pram;
     }
 
+//tạo 1 function prinInfo
+
     public function printInfo(){
         echo "<br>".__METHOD__;
         echo "<br>Tên: ".$this->name;
