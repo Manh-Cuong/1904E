@@ -56,7 +56,7 @@ if (isset($_POST) && !empty($_POST) && isset($_POST["employee_id"])) {
 
         if ($result == true) {
             //nếu result = true thì thông báo thành công
-            echo "<div class='alert alert-success'>Xóa nhân viên thành công ! <a href='index.php'>Trang chủ</a></div>";
+            echo "<div class='alert alert-success'>Xóa nhân viên thành công ! <a href='btap1.php'>Trang chủ</a></div>";
         } else {
             //nếu result bằng false thì thông báo thất bại
             echo "<div class='alert alert-danger'>Xóa nhân viên thất bại !</div>";

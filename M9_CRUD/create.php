@@ -36,7 +36,7 @@ if (isset($_POST)&&!empty($_POST)){
         $result=$connection->query($sqlInsert);
 
         if ($result==true){
-            echo "<div class='alert alert-success'>Thêm mới nhân viên thành công ! <a href='index.php'>Trang chủ</a></div>";
+            echo "<div class='alert alert-success'>Thêm mới nhân viên thành công ! <a href='btap1.php'>Trang chủ</a></div>";
         }else{
             echo "<div class='alert alert-danger'>Thêm mới nhân viên thất bại !</div>";
         }
