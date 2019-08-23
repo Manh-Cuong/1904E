@@ -25,9 +25,9 @@ class Student{
 }
 //khởi tạo đối tượng
 
-$tuan=new Student();
-$tuan->changeInfo("Lê Mạnh Cường !",23);
+$Cuong=new Student();
+$Cuong->changeInfo("Lê Mạnh Cường !!!",23);
 echo "<pre>";
-print_r($tuan);
+print_r($Cuong);
 echo "</pre>";
 

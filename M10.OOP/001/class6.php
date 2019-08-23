@@ -23,7 +23,7 @@ class Student{
 }
 //khởi tạo đối tượng
 
-$tuan=new Student();
+$Cuong=new Student();
 
 //echo "<pre>";
 //print_r($tuan);
